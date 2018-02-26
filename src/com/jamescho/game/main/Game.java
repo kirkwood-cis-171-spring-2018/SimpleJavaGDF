@@ -7,6 +7,7 @@ import com.jamescho.game.state.State;
 import javax.swing.*;
 import java.awt.*;
 
+
 /**
  * Created by cortman on 2/14/17.
  */
@@ -29,6 +30,7 @@ public class Game extends JPanel implements Runnable {
         setBackground(Color.BLACK);
         setFocusable(true);
         requestFocus();
+
     }
 
     public void setCurrentState(State newState) {
